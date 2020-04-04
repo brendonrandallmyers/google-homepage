@@ -1,0 +1,143 @@
+body, a {
+    font-size: 13px;
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#viewport {
+    width: 100%;
+}
+
+#header {
+    width: 100%;
+    height: 2.5em;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#header a {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#header-l, 
+#header-r {
+    padding: 1em;
+}
+
+#apps {
+    height: 1.8em;
+    width: 1.8em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    background: url(images/apps_icon_dark.png); 
+    opacity: .6; 
+    position: absolute;
+    top: 50%;
+    transform: translateY(-30%);
+}
+
+#apps:hover {
+    opacity: 1; 
+}
+
+#sign-in {
+    margin-left: 2em;
+    padding: .6em;
+    background-color: #4385F6;
+    font-weight: bolder;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#main {
+    padding: 1em;
+}
+
+#main-image {
+    padding-top:8em;
+    display: flex;
+    justify-content: center;
+}
+
+#search-form {
+    padding-top:2em;
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text] {
+    width: 51em;
+    padding: 1.2em;
+    border-radius: 2em;
+    border: 1px solid #ddd;
+    background: url("images/search-icon.png") top left no-repeat;
+  }
+
+input[type=text]:hover {
+    box-shadow: 0px 0px 4px #ccc;
+    border: 1px solid #fff;
+  }
+
+input[type=submit] {
+    padding: .6em;
+    background-color: #eee;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+#search-buttons {
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+#search,
+#lucky {
+    margin: .5em;
+    padding-right: .7em;
+    padding-left: .7em;
+    border: 1px solid #eee;
+    color: #555;
+}
+
+#search:hover,
+#lucky:hover {
+    margin: .5em;
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+
+#footer-wrapper {
+    width:100%;
+    height: 3.5em;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: #eee;
+    border-top: 1px solid rgb(222, 222, 222);
+}
+
+#footer-content {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#footer-content a {
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #555;
+}
+
+#footer-l, 
+#footer-r {
+    padding: 1em;
+}
